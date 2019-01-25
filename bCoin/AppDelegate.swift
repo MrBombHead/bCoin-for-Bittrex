@@ -21,9 +21,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = UINavigationController(rootViewController: HomeVC())
         
         
-
-        
-        
         
         let textAttributes = [
             NSAttributedStringKey.font.rawValue : UIFont(name: fontName, size: 14)!,
@@ -36,7 +33,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         ]
         
         
-        
+        //do something here...
         
         
         
