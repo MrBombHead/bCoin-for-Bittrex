@@ -31,9 +31,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             NSAttributedStringKey(NSAttributedStringKey.foregroundColor.rawValue) : UIColor.white,
             NSAttributedStringKey(NSAttributedStringKey.font.rawValue) : UIFont(name: fontName, size: 14)!
         ]
-        
-        
-        //do something here...
+
         
         
         
