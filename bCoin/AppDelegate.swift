@@ -19,8 +19,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         window?.rootViewController = UINavigationController(rootViewController: HomeVC())
         
-        
-        
         let textAttributes = [
             NSAttributedStringKey.font.rawValue : UIFont(name: fontName, size: 14)!,
             NSAttributedStringKey.foregroundColor.rawValue : UIColor.orange
@@ -30,9 +28,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             NSAttributedStringKey(NSAttributedStringKey.foregroundColor.rawValue) : UIColor.white,
             NSAttributedStringKey(NSAttributedStringKey.font.rawValue) : UIFont(name: fontName, size: 14)!
         ]
-
-        
-        
         
         UINavigationBar.appearance().barTintColor = .black
         UINavigationBar.appearance().tintColor = .white
@@ -40,7 +35,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).defaultTextAttributes = textAttributes
 
         UIBarButtonItem.appearance(whenContainedInInstancesOf: [UISearchBar.self]).setTitleTextAttributes(cancelButtonAttributes, for: .normal)
-
 
         return true
     }
